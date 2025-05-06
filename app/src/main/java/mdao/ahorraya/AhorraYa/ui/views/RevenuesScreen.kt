@@ -85,7 +85,12 @@ fun RevenuesScreen(auth: FirebaseAuth, snackbarHostState: SnackbarHostState) {
             horizontalArrangement = Arrangement.SpaceEvenly
         ) {
             Button(
-                onClick = { isIncome = true },
+                onClick = {
+                    isIncome = true
+                    selectedAccount = ""
+                    selectedCategory = ""
+                    amount = ""
+                          },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = if (isIncome) SelectedNavbar else BackgroundTextfield
                 )
@@ -93,7 +98,12 @@ fun RevenuesScreen(auth: FirebaseAuth, snackbarHostState: SnackbarHostState) {
                 Text(stringResource(R.string.ingreso))
             }
             Button(
-                onClick = { isIncome = false },
+                onClick = {
+                    isIncome = false
+                    selectedAccount = ""
+                    selectedCategory = ""
+                    amount = ""
+                          },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = if (!isIncome) SelectedNavbar else BackgroundTextfield
                 )
