@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AhorraYa</string>
+    <string name="que_no_te_duela">No pain</string>
+    <string name="ahorra_ya">Save now!</string>
+    <string name="reg_strate_gratis">Sign up free</string>
+    <string name="continuar_con_google">Continue with Google</string>
+    <string name="iniciar_sesi_n">Log In</string>
+    <string name="bienvenido_de_nuevo_te_he_echado_de_menos">Welcome back you´ve  been missed!</string>
+    <string name="inicie_sesi_n_aqu">Login here</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_you_password">Forgot you password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="create_account">Create Account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="historial_de_movimientos">Transaction History</string>
+    <string name="tipo">Type:</string>
+    <string name="cantidad">Amount:</string>
+    <string name="cuenta">Account:</string>
+    <string name="categor_a">"Category: "</string>
+    <string name="fecha">"Date: "</string>
+    <string name="guardar">Save</string>
+    <string name="cancelar">Cancel</string>
+    <string name="editar_movimiento">Edit Movement</string>
+    <string name="tipoH">Type: %1$s</string>
+    <string name="cantidadH">Amount: %1$s</string>
+    <string name="cuentaH">Account: %1$s</string>
+    <string name="categor_h">Category: %1$s</string>
+    <string name="fechaH">Date: %1$s</string>
+    <string name="registrar_movimiento">Register Movement</string>
+    <string name="ingreso">Income</string>
+    <string name="gasto">Expenditure</string>
+    <string name="aceptar">Accept</string>
+    <string name="efectivo">Cash</string>
+    <string name="tarjeta">Card</string>
+    <string name="distribuci_n_de_gastos">Distribution of expenses</string>
+    <string name="saldo_total">Total Balance</string>
+</resources>

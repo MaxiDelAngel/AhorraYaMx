@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215565909920",
+    "project_id": "ahorraya-6aabf",
+    "storage_bucket": "ahorraya-6aabf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215565909920:android:fbbc9f3523cfffc556eec5",
+        "android_client_info": {
+          "package_name": "mdao.ahorraya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAYdbDdTz4Br3s4_vq8FCnFTaOt3AhmSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
