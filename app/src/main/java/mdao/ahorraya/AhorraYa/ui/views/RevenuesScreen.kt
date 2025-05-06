@@ -171,6 +171,10 @@ fun RevenuesScreen(auth: FirebaseAuth, snackbarHostState: SnackbarHostState) {
                 coroutineScope.launch {
                     snackbarHostState.showSnackbar("Guardado exitosamente")
                 }
+
+                amount = ""
+                selectedAccount = ""
+                selectedCategory = ""
             },
             modifier = Modifier
                 .fillMaxWidth()
