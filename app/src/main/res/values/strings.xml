@@ -38,4 +38,5 @@
     <string name="tarjeta">Tarjeta</string>
     <string name="distribuci_n_de_gastos">Distribución de gastos</string>
     <string name="saldo_total">Saldo Total</string>
+    <string name="no_hay_gastos_todav_a">No hay gastos todavía</string>
 </resources>

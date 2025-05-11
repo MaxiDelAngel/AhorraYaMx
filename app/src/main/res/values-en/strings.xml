@@ -39,4 +39,5 @@
     <string name="tarjeta">Card</string>
     <string name="distribuci_n_de_gastos">Distribution of expenses</string>
     <string name="saldo_total">Total Balance</string>
+    <string name="no_hay_gastos_todav_a">No expenses yet</string>
 </resources>

@@ -44,6 +44,11 @@ import java.util.*
 fun RevenuesScreen(auth: FirebaseAuth, snackbarHostState: SnackbarHostState) {
     val viewModel: ServiceViewModel = viewModel()
     val coroutineScope = rememberCoroutineScope()
+    val servicios by viewModel.listaServices.collectAsState()
+
+    val balance = remember(servicios) {
+        viewModel.calcularBalance()
+    }
 
     var isIncome by remember { mutableStateOf(true) }
     var amount by remember { mutableStateOf("") }
@@ -154,6 +159,14 @@ fun RevenuesScreen(auth: FirebaseAuth, snackbarHostState: SnackbarHostState) {
             onClick = {
                 if (amount.isBlank()) {
                     errorMessage = "Por favor, ingrese una cantidad válida"
+                    return@Button
+                }
+
+                if (!isIncome && selectedAccount === "Tarjeta" && amount.toFloat()>balance.tarjeta){
+                    errorMessage = "No tienes suficiente dinero en tu tarjeta"
+                    return@Button
+                } else if (!isIncome && selectedAccount === "Efectivo" && amount.toFloat()>balance.efectivo){
+                    errorMessage = "No tienes suficiente efectivo"
                     return@Button
                 }
 

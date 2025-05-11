@@ -164,6 +164,11 @@ fun GraficaPastel(viewModel: ServiceViewModel) {
                 .height(240.dp),
             contentAlignment = Alignment.Center
         ) {
+            Text(
+                text = stringResource(R.string.no_hay_gastos_todav_a),
+                style = MaterialTheme.typography.titleSmall,
+                color = Color.Gray,
+            )
             CircularProgressIndicator(color = Coral)
         }
     } else {
